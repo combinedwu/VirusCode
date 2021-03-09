@@ -1,6 +1,6 @@
 # VirusCode
 viruscode
-代码思路：
+代码思路：<br>
 1、Main主类中，在main中调用调用三个方法，分别为initHospital(); initPanel(); initInfected();
 2、initHospital()函数，对医院类Hospital进行初始化，主要是设定医院的展示参数和床位取返函数；
 3、initInfected(); 初始化感染者；这里涉及到Person类和PersonPool类，为本程序核心代码。
