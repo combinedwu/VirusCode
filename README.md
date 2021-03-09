@@ -9,6 +9,8 @@ viruscode
 4、initPanel(); 涉及到MyPanel类，初始化画布，画出医院和城市人群分布，显示各类人群统计；<br>
      同时一个重要地方，是设置时间，规定每0.1秒重绘一次画布，每重绘10次算一天；<br>
 5、每重绘一次画布，城市中的人移动一定距离，可能改变自身状态（被感染）；<br>
-
+<br>
 运行结果：<br>
 ![image](https://user-images.githubusercontent.com/80262489/110530566-94961880-8155-11eb-8f0c-3ddff66a65e2.png)
+<br>
+注：项目文件在branches: master
