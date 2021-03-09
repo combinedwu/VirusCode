@@ -1,6 +1,12 @@
 # VirusCode
 viruscode
 代码思路：<br>
+改造自Ele实验室在2020年2月3日发布的新冠仿真程序<br>
+github地址：git://github.com/KikiLetGo/VirusBroadcast.git <br>
+原程序是模拟了一个地区的病毒传播情况，可以通过调整流动意向、医院救治情况等因素，观察到不同的传播速度；<br>
+这里在原程序的基础上，设置了人群按城市分布（目前只做了两个城市），病毒在一个地区爆发，并随着人员流动，通过两个地区接触面积（模拟城市见交通管控力度）完成城市间的感染；《br>
+规定：人群只能在自己的地区移动，只能通过想接触的部分完成病毒传播；<br>
+
 1、Main主类中，在main中调用调用三个方法，分别为initHospital(); initPanel(); initInfected();<br>
 2、initHospital()函数，对医院类Hospital进行初始化，主要是设定医院的展示参数和床位取返函数；<br>
 3、initInfected(); 初始化感染者；这里涉及到Person类和PersonPool类，为本程序核心代码。<br>
